@@ -411,3 +411,9 @@ h6,
 .scrollToTop_wraper {
   opacity: 0 !important;
 }
+#header6-2 .mbr-section-title {
+  color: #28262b;
+}
+#header6-2 .mbr-section-text {
+  color: #565656;
+}
