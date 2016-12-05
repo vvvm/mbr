@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "NewSite-11-24_0935",
+    "name": "NewSite-12-05_1441",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
@@ -35,7 +35,24 @@
         "footer_custom": "",
         "html_before": ""
       },
-      "components": []
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<a data-pin-do=\"embedBoard\" data-pin-board-width=\"400\" data-pin-scale-height=\"240\" data-pin-scale-width=\"80\" href=\"https://www.pinterest.com/tandacreatives/curtains-blinds-window-dressings-and-partitions/\"></a>;\n{JS_CODE_0}",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-0",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script async defer src=\"https://assets.pinterest.com/js/pinit.js\"></script>"
+          ]
+        }
+      ]
     }
   }
 }
