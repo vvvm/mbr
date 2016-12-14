@@ -38,7 +38,7 @@
     },
     "favicon": "",
     "noImageResize": "",
-    "google-analytics": "<script type=\"text/javascript\">\r\n/* <![CDATA[ */\r\nvar google_conversion_id = 941187945;\r\nvar google_custom_params = window.google_tag_params;\r\nvar google_remarketing_only = true;\r\n/* ]]> */\r\n</script>\r\n<script type=\"text/javascript\" src=\"//www.googleadservices.com/pagead/conversion.js\">\r\n</script>\r\n<noscript>\r\n<div style=\"display:inline;\">\r\n<img height=\"1\" width=\"1\" style=\"border-style:none;\" alt=\"\" src=\"//googleads.g.doubleclick.net/pagead/viewthroughconversion/941187945/?guid=ON&script=0\"/>\r\n</div>\r\n</noscript>",
+    "google-analytics": "<script type=\"text/javascript\">\r\nvar google_conversion_id = 941187945;\r\nvar google_custom_params = window.google_tag_params;\r\nvar google_remarketing_only = true;\r\n</script>\r\n<script type=\"text/javascript\" src=\"//www.googleadservices.com/pagead/conversion.js\">\r\n</script>",
     "publishType": "github"
   },
   "pages": {
