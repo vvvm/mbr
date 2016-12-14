@@ -1,45 +1,33 @@
 {
   "settings": {
-    "name": "NewSite-12-13_1403",
+    "name": "NewSite-12-09_1705",
     "currentPage": "index.html",
     "theme": {
-      "name": "mobirise3",
-      "title": "Mobirise 3",
+      "name": "directm",
+      "title": "DirectM",
       "styling": {
-        "primaryColor": "#c0a375",
-        "secondaryColor": "#bfcecb",
-        "successColor": "#90a878",
-        "infoColor": "#7e9b9f",
-        "warningColor": "#f3c649",
-        "dangerColor": "#f28281",
-        "titleFont": "Montserrat",
-        "subtitleFont": "Lora",
-        "textFont": "Raleway",
+        "primaryColor": "#e94a9d",
+        "secondaryColor": "#d252a4",
+        "successColor": "#2996c9",
+        "infoColor": "#0277bd",
+        "warningColor": "#d0e637",
+        "dangerColor": "#f97979",
+        "titleFont": "Oxygen",
+        "subtitleFont": "Libre Franklin",
+        "textFont": "Libre Franklin",
         "isRoundedButtons": false,
-        "isAnimatedOnScroll": true,
+        "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       }
     },
     "versionFirst": "3.10",
-    "uniqCompNum": 3,
+    "uniqCompNum": 55,
     "versionPublish": "3.10",
-    "mcShopcart": {
-      "email": "mobirise.com@gmail.com",
-      "iconSize": "30",
-      "iconColor": "#FFFFFF",
-      "backColor": "#27aae0",
-      "topOffset": "120",
-      "rightOffset": "20",
-      "siteWidth": "1150",
-      "counterSize": "12",
-      "counterColor": "#FFFFFF",
-      "counterBack": "#f43282",
-      "checkoutButton": "Check Out with"
-    },
     "favicon": "",
-    "noImageResize": "",
+    "noImageResize": "true",
     "google-analytics": "",
-    "publishType": "github"
+    "publishType": "github",
+    "publishPath": "file:///C:/Users/Mariya/Desktop/allinonekit"
   },
   "pages": {
     "index.html": {
@@ -53,126 +41,1335 @@
       },
       "components": [
         {
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "header1",
+          "_name": "menu1",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/91jutauskamh2yjb1c4a-img-9284-2000x1333-77.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#a07e49",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#94a5d0",
+            "fontSize": 0.8125,
+            "imageSize": 4,
+            "fontName": {
+              "name": "Libre Franklin",
+              "css": "'Libre Franklin', serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i"
             },
-            "overlay": false,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "fontColor": "#fffffd",
+            "fontHoverColor": "@primaryColor"
           },
-          "title": "FULL SCREEN INTRO",
-          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
-          "_customHTML": "<section class=\"mbr-section mbr-section-hero mbr-section-full mbr-parallax-background mbr-section-with-arrow\">\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-md-10 col-md-offset-1 text-xs-center\">\n\n                    <h1 class=\"mbr-section-title display-1 mbr-editable-content\" code-editable-id=\"3\">FULL SCREEN INTRO</h1>\n                    <p class=\"mbr-section-lead lead mbr-editable-content\" code-editable-id=\"4\">Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.</p>\n                    <div class=\"mbr-section-btn\"><a class=\"btn btn-lg btn-primary mbr-editable-button\" href=\"https://mobirise.com\" code-editable-id=\"5\">DOWNLOAD FOR WINDOWS</a> <a class=\"btn btn-lg btn-white btn-white-outline mbr-editable-button\" href=\"https://mobirise.com\" code-editable-id=\"6\">DOWNLOAD FOR MAC</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"mbr-arrow mbr-arrow-floating\" aria-hidden=\"true\"><a href=\"#header2-0\"><i class=\"mbr-arrow-icon\"></i></a></div>\n\n</section>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-lg btn btn-success\" href=\"index.html#features7-4\">What's included</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-lg btn btn-secondary\" href=\"http://my.mobirise.com/buy.php?b=5&amp;COUPON=AIO\">BUY NOW</a></li>",
+          "_customHTML": "<section class=\"menu1\">\n\n    <nav class=\"navbar navbar-dropdown bg-color transparent navbar-fixed-top\">\n        <div class=\"container-fluid\">\n\n            <div class=\"mbr-table\">\n                <div class=\"mbr-table-cell logo\">\n\n                    <div class=\"navbar-brand\">\n                        <a href=\"https://mobirise.com\" class=\"navbar-logo\"><img src=\"@PROJECT_PATH@/assets/images/logo-bright.png\" alt=\"Mobirise\" style=\"height: 4rem;\"></a>\n                        \n                    </div>\n\n                </div>\n                <div class=\"mbr-table-cell text\">\n\n                    <button class=\"navbar-toggler pull-xs-right hidden-md-up\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"hamburger-icon\"></div>\n                    </button>\n\n                    <ul class=\"nav-dropdown collapse pull-xs-right nav navbar-nav show-buttons navbar-toggleable-sm\" id=\"exCollapsingNavbar\"><li class=\"nav-item nav-btn\"><a class=\"nav-link btn btn-lg btn btn-success mbr-editable-menu-item\" href=\"index.html#features7-4\" code-editable-id=\"704\">What's included</a></li><li class=\"nav-item nav-btn\"><a class=\"nav-link btn btn-lg btn btn-secondary mbr-editable-menu-item\" href=\"http://my.mobirise.com/buy.php?b=5&amp;COUPON=AIO\" code-editable-id=\"705\">BUY NOW</a></li></ul>\n\n                    <button hidden=\"\" class=\"navbar-toggler navbar-close\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"close-icon\"></div>\n                    </button>\n\n                </div>\n\n            </div>\n\n        </div>\n    </nav>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_customCSS": ".mbr-section {background:linear-gradient(to top, #00BCD4,#e91e63)}\n\n.btn {background-color:#000;border-style:none;}",
+          "_customCSS": ".hide-buttons .nav-btn {\n\tdisplay: none !important;\n}\n.navbar-toggler {\n\tcolor: #fffffd;\n}\n.close-icon::before, .close-icon::after {\n\tbackground-color: #fffffd;\n}\n.link, .dropdown-item {\n\tcolor: #fffffd;\n\tfont-family: 'Libre Franklin', serif;\n}\n.link {\n\tfont-size: 0.8125rem;\n}\n.dropdown-item, .nav-dropdown-sm .link {\n\tfont-size: 0.880rem;\n}\n.link:hover, .link:focus {\n\tcolor: #5aac98;\n}\n.dropdown-item:hover::before, .dropdown-item:focus::before {\n\tbackground: #5aac98;\n}\n.dropdown-item:hover, .dropdown-item:focus {\n\tcolor: #fffffd;\n}\n.link[aria-expanded=\"true\"], .dropdown-menu {\n\tbackground: #94a5d0;\n}\n.nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover {\n\tbackground: #899ccb!important;\n}\n.navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu {\n\tbackground: #94a5d0;\n}\n.bg-color.transparent .link {\n\tcolor: #fffffd;\n\ttransition: none;\n}\n.bg-color.transparent.opened .link {\n\ttransition: color .2s ease-in-out;\n}\n.bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus {\n\tcolor: #5aac98;\n}\n.link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"] {\n\tcolor: #5aac98!important;\n}\n",
           "_customTemplate": true,
-          "_anchor": "header1-1"
+          "_anchor": "menu1-3"
         },
         {
           "_tags": [
             "Theme"
           ],
-          "_name": "header2",
-          "_anchor": "header2-0",
+          "_name": "content5",
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);\n  h1 {    font-weight: bold;}\n\n.all-line-1 {text-transform:uppercase; font-size: 80px;}\n.all-line-2 { font-size:80px;}\n.fifty-line { font-size:80px;}\n\n\n@media (max-width: 1200px) {\n .all-line-1{     font-size: 60px;  }\n.all-line-2{     font-size: 60px;  }\n.fifty-line{     font-size: 60px;  }\n}\n@media (min-width: 992px){.hidden50 {display:none;visibility: hidden;}}\n\n@media (max-width: 992px) {\n.hidden50 {display:block;visibility: visible;}\n.fifty-line{     display: none;}\n  \n    \n}\n\n\n.mbr-section-title, .mbr-section-subtitle {\n\tmargin-bottom: 1rem;\n\tcolor: #ffffff;\n}\n.mbr-iconfont {\n\tcolor: undefined;\n\tborder-color: undefined;\n}\n.mbr-table-cell {\n\tvertical-align: middle;\n}\n.heading-title {\n\tfont-family: 'Lato', sans-serif;\n}\n.heading-text {\n\tcolor: #ffffff;\n}\n.mbr-list ul li {\n      display: inline-block; color:#FFF;}\n\n.mbr-list ul li:after {\n    content: '\\2022'; padding: 0 1.5rem;\n        font-size: 1.5em;}\n\n.mbr-list ul li:last-child:after {\n        content: ''; }\n\n.heading-title B {\n\tfont-size: 80px;\n}\n\n.fifty-line{color:#FCE4EC;}\n.hidden50 {color:#FCE4EC;}\n.btn { padding: 10px 30px;}",
           "_params": {
-            "parallax": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "contentAlign": "center",
+            "paddingTop": "7",
+            "paddingBottom": "7",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
-            "bgColor": "#2b0680",
+            "bgImage": "file:///C:/Users/Mariya/AppData/Local/Mobirise.com/Mobirise/projectData/02.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#0067a3",
+            "containerColor2": "#f5a3e4",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": 0.95
+          },
+          "title": "<b>All-in-One&nbsp;</b><b>Mobirise Kit</b>",
+          "text": "Get all premium extensions and themes for the Mobirise app with a 50% discount.<br>400+ Awesome Blocks 7000+ Icons 8 Premium Themes &amp; Extensions",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"index.html#features7-4\" data-toolbar=\"-mbrBtnMove\">WHAT'S INCLUDED</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"http://my.mobirise.com/buy.php?b=5&amp;COUPON=AIO\" data-toolbar=\"-mbrBtnMove\">BUY NOW</a>",
+          "_customHTML": "<section class=\"mbr-section content5\" style=\"background-image: linear-gradient(to right top, rgb(0, 103, 163), rgb(245, 163, 228)); background-color: rgb(0, 103, 163); padding-top: 140px; padding-bottom: 140px; background-position: initial initial; background-repeat: initial initial;\">\n\n    \n\n        <div class=\"container\">\n            <div class=\"row heading\">\n                <div class=\"col-lg-5 col-md-12 col-lg-offset-2 text-xs-center\">\n                    <h1 class=\"mbr-section-title display-1 heading-title all-line-1\">All-in-One</h1><h1 class=\"mbr-section-title display-1 heading-title all-line-2\">Mobirise Kit</h1>\n                 </div>\n                <div class=\"col-lg-3 col-md-12 text-xs-center\">\n                <h1 class=\"mbr-section-title display-1 heading-title mbr-editable-content fifty-line\" code-editable-id=\"830\"><strong>50%</strong></h1><h1 class=\"mbr-section-title display-1 heading-title mbr-editable-content fifty-line\" code-editable-id=\"831\"><strong>OFF</strong></h1>\n                     <h1 class=\"mbr-section-title display-1 heading-title hidden50\"><strong>50% OFF</strong></h1>\n                 </div>\n                <div class=\"col-md-10 col-md-offset-1 text-xs-center\">\n\n                    <div class=\"mbr-list mbr-section-text text-1\">\n                        <ul>\n                        <li>400+ Awesome Blocks</li> \n                        <li>7000+ Icons</li>\n                        <li>8 Premium Themes &amp; Extensions</li>\n                            </ul>\n                    </div>\n                    <div class=\"mbr-section-btn\"><a class=\"btn btn-lg btn-success mbr-editable-button\" href=\"index.html#features7-4\" code-editable-id=\"832\">WHAT'S INCLUDED</a> <a class=\"btn btn-lg btn-secondary mbr-editable-button\" href=\"http://my.mobirise.com/buy.php?b=5&amp;COUPON=AIO\" code-editable-id=\"833\">BUY NOW</a></div>\n                </div>\n            </div>\n        </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true,
+          "_anchor": "content5-1h",
+          "_styles": {
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            }
+          }
+        },
+        {
+          "subtitle1": "Awesome",
+          "subtitle2": "Awesome",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features7",
+          "_styles": {
+            ".mbr-iconfont": {},
+            ".heading-title": {
+              "font-size": "32px",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          },
+          "_anchor": "features7-4",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 1,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "bgColor": "#fffffd",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.3,
-            "overlayColor": "#000",
-            "inverse": false,
+            "overlayOpacity": 0.95,
+            "overlayColor": "#fffffd",
+            "showHeading": true,
+            "showText": false,
             "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true
+            "showButtons": false,
+            "showFeaturesImages": true,
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false
           },
-          "media": {
+          "text": "Mobirise",
+          "title": "4 themes &amp; 4 extensions:",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "media1": {
             "image": {
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "linkInNewWindow": false,
-              "name": "heart",
-              "family": "linecons",
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/directm-th.jpg",
               "link": "",
-              "size": 0,
-              "active": true
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
-          "title": "INTRO WITH IMAGE",
-          "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+          "title1": "DirectM ($19 reg price)",
+          "text1": "New gradient theme provided by Mobirise, it includes colorful intros, multiple features blocks, tabs, pricing tables, accordions, counters, media blocks, forms, blocks for articles and more. <a href=\"https://mobirise.com/extensions/directm/\">View live</a>.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/colorm-th-1.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "ColorM ($29 reg price)",
+          "text2": "Colorful, vivid, brave and beautiful theme for Mobirise Website Builder. It contains blocks with typed effects, blocks with an animated background, intros, forms, progress bars, team blocks, testimonials, countdowns and more else. <a href=\"https://mobirise.com/extensions/colorm/\">View demo</a>.",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>"
         },
         {
-          "_inherit": "header1",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#000"
-            },
-            ".mbr-section-lead": {
-              "color": "#000000"
-            }
-          },
+          "subtitle1": "Awesome",
+          "subtitle2": "Awesome",
           "_tags": [
             "Theme"
           ],
-          "_name": "header5",
-          "_anchor": "header5-2",
+          "_name": "features7",
+          "_styles": {
+            ".mbr-iconfont": {},
+            ".card-text SPAN": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "features7-5",
           "_params": {
-            "parallax": true,
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "parallax": false,
             "bgImageRadio": false,
-            "showArrow": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#e6fdf6",
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "bgColor": "#fffffd",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "contentAlign": "left",
+            "overlay": true,
+            "overlayOpacity": 0.95,
+            "overlayColor": "#fffffd",
+            "showHeading": false,
+            "showText": true,
+            "showTitle": true,
+            "showButtons": false,
+            "showFeaturesImages": true,
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false
+          },
+          "text": "Mobirise",
+          "title": "Always on your terms",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/blockpack-th.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Blockpack for Mobirise 3 ($39 reg price)",
+          "text1": "60+ new blocks for&nbsp;Mobirise 3 theme, including intros with subscribe and contact forms, countdowns, tabs, counters, &nbsp;accordions, timelines, testimonials sliders, progress bars and so on. <a href=\"https://mobirise.com/extensions/blockpack/\">See all blocks</a>.<br>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/space-th.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "SpaceM ($19 reg price)",
+          "text2": "<span style=\"font-size: 0.95rem; line-height: 1.5em; background-color: transparent;\">This theme is focused on your content, so you can represent it clearly. SpaceM i</span><span style=\"font-size: 0.95rem; line-height: 1.5em; background-color: transparent;\">ncludes several menu blocks, headers, team and clients blocks, multiple article blocks, news, counters and more. <a href=\"https://mobirise.com/extensions/spacem/\">View the list of blocks</a>.&nbsp;</span><br>",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>"
+        },
+        {
+          "subtitle1": "Awesome",
+          "subtitle2": "Awesome",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features7",
+          "_styles": {
+            ".mbr-iconfont": {},
+            ".heading-title": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-size": "32px"
+            },
+            ".card-text": {
+              "font-family": "'Libre Franklin', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i"
+            }
+          },
+          "_anchor": "features7-7",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "bgColor": "#fffffd",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.95,
+            "overlayColor": "#fffffd",
+            "showHeading": true,
+            "showText": false,
+            "showTitle": false,
+            "showButtons": false,
+            "showFeaturesImages": true,
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false
+          },
+          "text": "Mobirise",
+          "title": ":vsd",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/code-editor.jpg",
+              "link": "",
+              "alt": "code editor mobirise extension",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Code Editor ($69 reg price)",
+          "text1": "This extension allows to edit the code of blocks in the app or add a special empty block for custom code. It's a great feature for advanced developers, who know how to deal with code. <a href=\"https://mobirise.com/extensions/code-editor.html\">More info</a>.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/cart-4.jpg",
+              "link": "",
+              "alt": "shopping cart mobirise extension",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Paypal Shopping Cart ($29 reg price)",
+          "text2": "It's a simple solution for those who want to include some eCommerce features to their sites. You can set \"Buy Now\" and \"Add to Cart\" links, and payments will be processed via Paypal. <a href=\"https://mobirise.com/extensions/shopping-cart.html\">View demo</a>.",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>"
+        },
+        {
+          "subtitle1": "Awesome",
+          "subtitle2": "Awesome",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features7",
+          "_styles": {
+            ".mbr-iconfont": {},
+            ".card-text": {
+              "font-family": "'Libre Franklin', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i"
+            }
+          },
+          "_anchor": "features7-6",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "2",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "bgColor": "#fffffd",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.95,
+            "overlayColor": "#fffffd",
+            "showHeading": false,
+            "showText": true,
+            "showTitle": true,
+            "showButtons": false,
+            "showFeaturesImages": true,
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false
+          },
+          "text": "Mobirise",
+          "title": "Always on your terms",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/icon-512x512-1.png",
+              "link": "",
+              "alt": "wow slider mobirise extension",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Wow Slider ($29 reg price)",
+          "text1": "The slider extension from Wow Slider. If you want a more adjusted slider on your pages, you'll like this extension. 35 animation effects &amp; 59 themes for your slides. <a href=\"https://mobirise.com/extensions/wowslider/\">More info</a>.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/icons1.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Icons ($19 reg price)",
+          "text2": "You'll be able to add icons to menu, buttons or use them instead of images. They look neat on all devices and screens. The extension contains 6600+ icons including 'IconsMind' ($79 reg. price) and \"Icon54\" ($97 reg.) sets. <a href=\"https://mobirise.com/extensions/icons.html\">View demo</a>.",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#ffffff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            },
+            ".heading-title B": {
+              "font-size": "48px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_customCSS": ".btn { padding: 10px 30px;}",
+          "_anchor": "content5-g",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "containerColor1": "#e19bcf",
+            "containerColor2": "#0067a3",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.95,
+            "overlayColor": "#000000",
+            "contentAlign": "center",
             "showTitle": true,
             "showText": true,
             "showButtons": true
           },
-          "title": "AWESOME STUFF",
-          "text": "50% OFF. Cool features. 100% Cotton.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">BUY NOW</a>"
+          "title": "<b>4 themes &amp; 4 extensions</b>",
+          "text": "Get all themes and extensions&nbsp;for Mobirise with a 50% discount.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"http://my.mobirise.com/buy.php?b=5&amp;COUPON=AIO\" data-toolbar=\"-mbrBtnMove\">BUY NOW</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-h",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": "1",
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "DirectM",
+          "meta": "By <b>John Smith</b> posted July 20, 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-c",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 4,
+            "bgColor": "#ffffff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/directm-preview.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#ffffff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            },
+            ".heading-title B": {
+              "font-size": "60px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_customCSS": ".btn { padding: 10px 30px;}",
+          "_anchor": "content5-i",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "containerColor1": "#fff0ab",
+            "containerColor2": "#ce1584",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.95,
+            "overlayColor": "#000000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "<span style=\"font-size: 60px;\"><b>All items at a 50% discount</b></span>",
+          "text": "4 themes and 4 extensions included.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"http://my.mobirise.com/buy.php?b=5&amp;COUPON=AIO\" data-toolbar=\"-mbrBtnMove\">BUY NOW</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-l",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": "1",
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "ColorM",
+          "meta": "By <b>John Smith</b> posted July 20, 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-e",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 4,
+            "bgColor": "#ffffff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/colorm1920.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#ffffff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            },
+            ".heading-title B": {
+              "font-size": "60px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_customCSS": ".btn { padding: 10px 30px;}",
+          "_anchor": "content5-m",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "containerColor1": "#54acea",
+            "containerColor2": "#ffbfcb",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.95,
+            "overlayColor": "#000000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "<b>Complete Mobirise Kit</b>",
+          "text": "Get all premium extensions and themes for the Mobirise app with a 50% discount.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"http://my.mobirise.com/buy.php?b=5&amp;COUPON=AIO\" data-toolbar=\"-mbrBtnMove\">BUY NOW</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-k",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": "1",
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "Block pack for Mobirise 3",
+          "meta": "By <b>John Smith</b> posted July 20, 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-d",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 4,
+            "bgColor": "#ffffff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/v306-1-1.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#ffffff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            },
+            ".heading-title B": {
+              "font-size": "60px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_customCSS": ".btn { padding: 10px 30px;}",
+          "_anchor": "content5-n",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "containerColor1": "#b371cc",
+            "containerColor2": "#49b5ce",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.95,
+            "overlayColor": "#000000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "<span style=\"font-size: 60px;\"><b>All premium offers in one kit</b></span>",
+          "text": "4 beautiful themes &amp; 4 awesome extensions for the Mobirise app.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"http://my.mobirise.com/buy.php?b=5&amp;COUPON=AIO\" data-toolbar=\"-mbrBtnMove\">BUY NOW</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-o",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": "1",
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "SpaceM<br>",
+          "meta": "By <b>John Smith</b> posted July 20, 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-p",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 4,
+            "bgColor": "#ffffff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/spacem-preview1.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-x",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": "1",
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "Code Editor<br>",
+          "meta": "By <b>John Smith</b> posted July 20, 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-12",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 4,
+            "bgColor": "#ffffff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/code-editor-preview.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-y",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "Icons<br>",
+          "meta": "By <b>John Smith</b> posted July 20, 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-14",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 4,
+            "bgColor": "#ffffff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/icons-preview.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-1b",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": "0",
+            "bgColor": "#ffffff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/icon541-2.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-1c",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#ffffff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/icon54-3-4-1.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-1d",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#ffffff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/icon54-5-6.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-1e",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#ffffff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/iconsmind1-1.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-1f",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 4,
+            "bgColor": "#ffffff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/iconsmind2.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-z",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "Wow Slider<br>",
+          "meta": "By <b>John Smith</b> posted July 20, 2016"
+        },
+        {
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_params": {
+            "customSize": true,
+            "customWidth": "1110",
+            "customHeight": "600",
+            "size": "1024x576",
+            "slides": [
+              {
+                "src": "@PROJECT_PATH@/assets/images/photo-1472772224448-b24d00409675.jpg",
+                "active": true,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/photo-1472772224448-b24d00409675-1110x600-49.jpg",
+                "title": "title 3",
+                "text": "text 3",
+                "tooltip": "@PROJECT_PATH@/assets/images/photo-1472772224448-b24d00409675-85x48-4.jpg"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/ncj0zbliaak-flo-karr.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/ncj0zbliaak-flo-karr-1110x600-23.jpg",
+                "title": "title 1",
+                "text": "text 1",
+                "tooltip": "@PROJECT_PATH@/assets/images/ncj0zbliaak-flo-karr-85x48-32.jpg"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/gv1i7bylldi-annie-spratt.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/gv1i7bylldi-annie-spratt-1110x600-63.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/gv1i7bylldi-annie-spratt-85x48-86.jpg"
+              }
+            ],
+            "theme": "gothic",
+            "bgColor": "#ffffff",
+            "animType": "squares",
+            "autoplay": true,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "fullScreen": true,
+            "showBullets": false,
+            "timeout": 2,
+            "duration": 2,
+            "height": "600",
+            "width": "1110",
+            "responsive": "1",
+            "showCaptions": false,
+            "captionsEffect": "slide",
+            "hideControls": false
+          },
+          "_anchor": "wowslider-11",
+          "articleLayout": false
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-10",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": "1",
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "Paypal Shopping Cart<br>",
+          "meta": "By <b>John Smith</b> posted July 20, 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-13",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 4,
+            "bgColor": "#ffffff",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/cart-preview.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#ffffff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            },
+            ".heading-title B": {
+              "font-size": "60px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_customCSS": ".btn { padding: 10px 30px;}",
+          "_anchor": "content5-u",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "containerColor1": "#10dfaa",
+            "containerColor2": "#5d93e4",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.95,
+            "overlayColor": "#000000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "<b>All-in-One Mobirise Kit</b>",
+          "text": "Get all premium extensions and themes for the Mobirise app with a 50% discount.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"http://my.mobirise.com/buy.php?b=5&amp;COUPON=AIO\" data-toolbar=\"-mbrBtnMove\">BUY NOW</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "accordion1",
+          "_anchor": "accordion1-1g",
+          "_params": {
+            "collapseAll": false,
+            "tabs": "3",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/accordion1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#ffffff",
+            "showTitle": true
+          },
+          "title": "F.A.Q.",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-1g-init\" data-core=\"\" href=\"#collapseOneaccordion1-1g\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>Do premium Mobirise extensions and themes require a yearly license renewal?</a>",
+          "text1": "<p>No, the license for all purchased extensions is FOR LIFE and valid for a LIFETIME with your account. Additionally, the license includes 1 year of complimentary support and free updates.</p>",
+          "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-1g-init\" data-core=\"\" href=\"#collapseTwoaccordion1-1g\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">I see the “auto-renewal” option on the order page. What is this?</a>",
+          "text2": "<p>The lifetime license includes 1 year of free updates and support. If you tick the \"auto-renewal\" checkbox, your support and update period will automatically be renewed at a discounted rate after a year. Leave the \"auto-renewal\" unchecked if you don't need this or plan to renew manually.&nbsp;</p>",
+          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-1g-init\" data-core=\"\" href=\"#collapseThreeaccordion1-1g\" aria-expanded=\"true\" aria-controls=\"collapseThree\">Will my extensions stop working after a year? What happens when the year of free upgrades/support ends?</a>",
+          "text3": "<p>The purchased extensions and themes will remain completely functional. The only consequence of not renewing is that you will miss out on product updates and you will no longer receive customer support.</p>",
+          "title4": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">This is a accordion Title 4</a>",
+          "text4": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
+          "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>"
+        },
+        {
+          "list": "<ul><li><a href=\"\">Bootstrap 4</a></li><li><a href=\"\">Responsive</a></li><li><a href=\"\">Web Fonts</a></li><li><a href=\"\">Unlimited Sites</a></li><li><a href=\"\">Google</a></li><li><a href=\"\">Node</a></li></ul>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            ".card-text": {
+              "color": "#fffffd"
+            }
+          },
+          "_anchor": "footer1-s",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#2b4484",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.4,
+            "overlayColor": "#000",
+            "columns": "2",
+            "showTitle": false
+          },
+          "title1": "For Business",
+          "text1": "",
+          "title2": "For Developers",
+          "text2": "",
+          "title3": "For Stores",
+          "text3": "<a href=\"http://mobirise.com\">Lorem ipsum.</a><br /><a href=\"http://mobirise.com\">Laboriosam, culpa.</a><br /><a href=\"http://mobirise.com\">Tempora, quasi.</a><br /><a href=\"http://mobirise.com\">Dolorem, eum.</a><br /><a href=\"http://mobirise.com\">Fugiat, iure.</a><br /><a href=\"http://mobirise.com\">Nobis, veniam.</a>",
+          "title4": "For Students",
+          "text4": "<a href=\"http://mobirise.com\">Lorem ipsum.</a><br /><a href=\"http://mobirise.com\">Excepturi, consectetur.</a><br /><a href=\"http://mobirise.com\">Similique, debitis.</a><br /><a href=\"http://mobirise.com\">Cum, ea!</a><br /><a href=\"http://mobirise.com\">Asperiores, at.</a><br /><a href=\"http://mobirise.com\">Obcaecati, molestias.</a>",
+          "copy": "<a href=\"http://mobirise.com\" class=\"text-white\">Mobirise</a>, 2016"
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {},
+      "components": [
+        {
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu2",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#fff",
+            "fontSize": 0.8125,
+            "imageSize": 4,
+            "fontName": {
+              "name": "Libre Franklin",
+              "css": "'Libre Franklin', serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i"
+            },
+            "fontColor": "#74a3c7",
+            "fontHoverColor": "@primaryColor"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-bright.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "_customHTML": "<section class=\"menu1\">\n\n    <nav class=\"navbar navbar-dropdown navbar-fixed-top\">\n        <div class=\"container-fluid\">\n\n            <div class=\"mbr-table\">\n                <div class=\"mbr-table-cell logo\">\n\n                    <div class=\"navbar-brand\">\n                        <a href=\"https://mobirise.com\" class=\"navbar-logo\"><img src=\"@PROJECT_PATH@/assets/images/logo-bright.png\" alt=\"Mobirise\" style=\"height: 4rem;\"></a>\n                        <a class=\"navbar-caption\" href=\"https://mobirise.com\">MOBIRISE</a>\n                    </div>\n\n                </div>\n                <div class=\"mbr-table-cell text\">\n\n                    <button class=\"navbar-toggler pull-xs-right hidden-md-up\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"hamburger-icon\"></div>\n                    </button>\n\n                    <ul class=\"nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm\" id=\"exCollapsingNavbar\"><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"https://mobirise.com/\" code-editable-id=\"107\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a class=\"nav-link link dropdown-toggle mbr-editable-menu-item\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" code-editable-id=\"108\">FEATURES</a><div class=\"dropdown-menu\"><a class=\"dropdown-item mbr-editable-menu-item\" href=\"https://mobirise.com/\" code-editable-id=\"109\">Mobile friendly</a><a class=\"dropdown-item mbr-editable-menu-item\" href=\"https://mobirise.com/\" code-editable-id=\"110\">Based on Bootstrap</a><div class=\"dropdown\"><a class=\"dropdown-item dropdown-toggle mbr-editable-menu-item\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" code-editable-id=\"111\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a class=\"dropdown-item mbr-editable-menu-item\" href=\"https://mobirise.com/\" code-editable-id=\"112\">Image/content slider</a><a class=\"dropdown-item mbr-editable-menu-item\" href=\"https://mobirise.com/\" code-editable-id=\"113\">Contact forms</a><a class=\"dropdown-item mbr-editable-menu-item\" href=\"https://mobirise.com/\" code-editable-id=\"114\">Image gallery</a><a class=\"dropdown-item mbr-editable-menu-item\" href=\"https://mobirise.com/\" code-editable-id=\"115\">Mobile menu</a><a class=\"dropdown-item mbr-editable-menu-item\" href=\"https://mobirise.com/\" code-editable-id=\"116\">Google maps</a><a class=\"dropdown-item mbr-editable-menu-item\" href=\"https://mobirise.com/\" code-editable-id=\"117\">Social buttons</a><a class=\"dropdown-item mbr-editable-menu-item\" href=\"https://mobirise.com/\" code-editable-id=\"118\">Google fonts</a><a class=\"dropdown-item mbr-editable-menu-item\" href=\"https://mobirise.com/\" code-editable-id=\"119\">Video background</a></div></div><a class=\"dropdown-item mbr-editable-menu-item\" href=\"https://mobirise.com/\" code-editable-id=\"120\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a class=\"nav-link link dropdown-toggle mbr-editable-menu-item\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" code-editable-id=\"121\">HELP</a><div class=\"dropdown-menu\"><a class=\"dropdown-item mbr-editable-menu-item\" href=\"http://forums.mobirise.com/\" code-editable-id=\"122\">Forum</a><a class=\"dropdown-item mbr-editable-menu-item\" href=\"https://mobirise.com/\" code-editable-id=\"123\">Tutorials</a><a class=\"dropdown-item mbr-editable-menu-item\" href=\"https://mobirise.com/\" code-editable-id=\"124\">Contact us</a></div></li></ul>\n\n                    <button hidden=\"\" class=\"navbar-toggler navbar-close\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"close-icon\"></div>\n                    </button>\n\n                </div>\n\n            </div>\n\n        </div>\n    </nav>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": ".hide-buttons .nav-btn {\n\tdisplay: none !important;\n}\n.navbar-toggler {\n\tcolor: #74a3c7;\n}\n.close-icon::before, .close-icon::after {\n\tbackground-color: #74a3c7;\n}\n.link, .dropdown-item {\n\tcolor: #74a3c7;\n\tfont-family: 'Libre Franklin', serif;\n}\n.link {\n\tfont-size: 0.8125rem;\n}\n.dropdown-item, .nav-dropdown-sm .link {\n\tfont-size: 0.880rem;\n}\n.link:hover, .link:focus {\n\tcolor: #e94a9d;\n}\n.dropdown-item:hover::before, .dropdown-item:focus::before {\n\tbackground: #e94a9d;\n}\n.dropdown-item:hover, .dropdown-item:focus {\n\tcolor: #74a3c7;\n}\n.link[aria-expanded=\"true\"], .dropdown-menu {\n\tbackground: #ffffff;\n}\n.nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover {\n\tbackground: #f7f7f7!important;\n}\n.navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu {\n\tbackground: #fff;\n}\n.bg-color.transparent .link {\n\tcolor: #74a3c7;\n\ttransition: none;\n}\n.bg-color.transparent.opened .link {\n\ttransition: color .2s ease-in-out;\n}\n.bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus {\n\tcolor: #e94a9d;\n}\n.link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"] {\n\tcolor: #e94a9d!important;\n}\n",
+          "_customTemplate": true,
+          "_anchor": "menu2-1a"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-1i",
+          "_params": {
+            "listColor": "@infoColor",
+            "btnColor": "@infoColor",
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.4,
+            "overlayColor": "#000",
+            "rows": 10,
+            "showIcons": true
+          },
+          "heading": "Copyright 2016, Mobirise. License: <a href=\"http://mobirise.com\">EULA</a>",
+          "list1": "<a href=\"http://mobirise.com\">Boost your ranking</a>",
+          "list2": "<a href=\"http://mobirise.com\">Bootstrap Builder</a>",
+          "list3": "<a href=\"http://mobirise.com\">Trendy website blocks</a>",
+          "list4": "<a href=\"http://mobirise.com\">Host anywhere</a>",
+          "list5": "<a href=\"http://mobirise.com\">Image/Content slider</a>",
+          "list6": "<a href=\"http://mobirise.com\">Contact forms</a>",
+          "list7": "<a href=\"http://mobirise.com\">Image gallery</a>",
+          "list8": "<a href=\"http://mobirise.com\">Mobile menu</a>",
+          "list9": "<a href=\"http://mobirise.com\">Google maps</a>",
+          "list10": "<a href=\"http://mobirise.com\">Fonts and icons</a>",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-google\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"socicon socicon-linkedin\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"VKontakte\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-vkontakte\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Odnoklassniki\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-odnoklassniki\"></i></a> ",
+          "_customHTML": "<section class=\"mbr-section footer2 mbr-after-navbar\" style=\"background-color: rgb(255, 255, 255); padding-top: 40px; padding-bottom: 40px;\">\n\n    \n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-xs-12 text-xs-center\">\n                <p class=\"footer-header mbr-section-title sub-2 mbr-editable-content\" code-editable-id=\"229\">Copyright 2016, Mobirise. License: <a href=\"http://mobirise.com\">EULA</a></p>\n\n                <div class=\"footer-list mbr-section-text text-1\">\n                    <ul>\n                        <li class=\"mbr-editable-content\" code-editable-id=\"230\"><a href=\"http://mobirise.com\">Boost your ranking</a></li>\n                        <li class=\"mbr-editable-content\" code-editable-id=\"231\"><a href=\"http://mobirise.com\">Bootstrap Builder</a></li>\n                        <li class=\"mbr-editable-content\" code-editable-id=\"232\"><a href=\"http://mobirise.com\">Trendy website blocks</a></li>\n                        <li class=\"mbr-editable-content\" code-editable-id=\"233\"><a href=\"http://mobirise.com\">Host anywhere</a></li>\n                        <li class=\"mbr-editable-content\" code-editable-id=\"234\"><a href=\"http://mobirise.com\">Image/Content slider</a></li>\n                        <li class=\"mbr-editable-content\" code-editable-id=\"235\"><a href=\"http://mobirise.com\">Contact forms</a></li>\n                        <li class=\"mbr-editable-content\" code-editable-id=\"236\"><a href=\"http://mobirise.com\">Image gallery</a></li>\n                        <li class=\"mbr-editable-content\" code-editable-id=\"237\"><a href=\"http://mobirise.com\">Mobile menu</a></li>\n                        <li class=\"mbr-editable-content\" code-editable-id=\"238\"><a href=\"http://mobirise.com\">Google maps</a></li>\n                        <li class=\"mbr-editable-content\" code-editable-id=\"239\"><a href=\"http://mobirise.com\">Fonts and icons</a></li>\n                    </ul>\n                </div>\n\n                <div><a class=\"btn btn-social mbr-editable-button\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" code-editable-id=\"240\"><i class=\"socicon socicon-twitter\"></i></a> <a class=\"btn btn-social mbr-editable-button\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" code-editable-id=\"241\"><i class=\"socicon socicon-facebook\"></i></a> <a class=\"btn btn-social mbr-editable-button\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\" code-editable-id=\"242\"><i class=\"socicon socicon-google\"></i></a> <a class=\"btn btn-social mbr-editable-button\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" code-editable-id=\"243\"><i class=\"socicon socicon-youtube\"></i></a> <a class=\"btn btn-social mbr-editable-button\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\" code-editable-id=\"244\"><i class=\"socicon socicon-instagram\"></i></a> <a class=\"btn btn-social mbr-editable-button\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\" code-editable-id=\"245\"><i class=\"socicon socicon-pinterest\"></i></a> <a class=\"btn btn-social mbr-editable-button\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/\" code-editable-id=\"246\"><i class=\"socicon socicon-tumblr\"></i></a> <a class=\"btn btn-social mbr-editable-button\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\" code-editable-id=\"247\"><i class=\"socicon socicon-linkedin\"></i></a> <a class=\"btn btn-social mbr-editable-button\" title=\"VKontakte\" target=\"_blank\" href=\"#\" code-editable-id=\"248\"><i class=\"socicon socicon-vkontakte\"></i></a> <a class=\"btn btn-social mbr-editable-button\" title=\"Odnoklassniki\" target=\"_blank\" href=\"#\" code-editable-id=\"249\"><i class=\"socicon socicon-odnoklassniki\"></i></a> </div>\n            </div>\n        </div>\n    </div>\n\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": ".footer-list {\n\tcolor: #0277bd;\n}\n.btn-social {\n\tborder-color: #0277bd;\n\tcolor: #0277bd;\n}\n.btn-social:hover {\n\tbackground: #0277bd;\n\tcolor: #fff;\n}\n",
+          "_customTemplate": true
         }
       ]
     }
