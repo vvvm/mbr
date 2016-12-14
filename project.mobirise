@@ -38,7 +38,7 @@
     },
     "favicon": "",
     "noImageResize": "",
-    "google-analytics": "<script type=\"text/javascript\">\r\nvar google_conversion_id = 941187945;\r\nvar google_custom_params = window.google_tag_params;\r\nvar google_remarketing_only = true;\r\n</script>\r\n<script type=\"text/javascript\" src=\"//www.googleadservices.com/pagead/conversion.js\">\r\n</script>",
+    "google-analytics": "",
     "publishType": "github"
   },
   "pages": {
