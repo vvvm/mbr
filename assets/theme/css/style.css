@@ -1985,6 +1985,9 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   top: -8px;
   left: 0; }
 
+.navbar-brand .text-black {
+  color: #000 !important; }
+
 /*-------
 
    Iconfont
@@ -2142,4 +2145,6 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
 	text-indent: -2400px;
 	text-align: center;
 	padding: 0;
+	top: 0;
+	left: -2400px;
 }
